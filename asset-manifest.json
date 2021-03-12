@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TRVL/static/css/main.3bf65a5c.chunk.css",
+    "main.js": "/TRVL/static/js/main.b0483eaf.chunk.js",
+    "main.js.map": "/TRVL/static/js/main.b0483eaf.chunk.js.map",
+    "runtime-main.js": "/TRVL/static/js/runtime-main.47e48c33.js",
+    "runtime-main.js.map": "/TRVL/static/js/runtime-main.47e48c33.js.map",
+    "static/js/2.108b7665.chunk.js": "/TRVL/static/js/2.108b7665.chunk.js",
+    "static/js/2.108b7665.chunk.js.map": "/TRVL/static/js/2.108b7665.chunk.js.map",
+    "static/js/3.5075c14f.chunk.js": "/TRVL/static/js/3.5075c14f.chunk.js",
+    "static/js/3.5075c14f.chunk.js.map": "/TRVL/static/js/3.5075c14f.chunk.js.map",
+    "index.html": "/TRVL/index.html",
+    "static/css/main.3bf65a5c.chunk.css.map": "/TRVL/static/css/main.3bf65a5c.chunk.css.map",
+    "static/js/2.108b7665.chunk.js.LICENSE.txt": "/TRVL/static/js/2.108b7665.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47e48c33.js",
+    "static/js/2.108b7665.chunk.js",
+    "static/css/main.3bf65a5c.chunk.css",
+    "static/js/main.b0483eaf.chunk.js"
+  ]
+}
