@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TRVL/static/css/main.3bf65a5c.chunk.css",
-    "main.js": "/TRVL/static/js/main.aabe6142.chunk.js",
-    "main.js.map": "/TRVL/static/js/main.aabe6142.chunk.js.map",
+    "main.js": "/TRVL/static/js/main.166137c9.chunk.js",
+    "main.js.map": "/TRVL/static/js/main.166137c9.chunk.js.map",
     "runtime-main.js": "/TRVL/static/js/runtime-main.47e48c33.js",
     "runtime-main.js.map": "/TRVL/static/js/runtime-main.47e48c33.js.map",
     "static/js/2.108b7665.chunk.js": "/TRVL/static/js/2.108b7665.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.47e48c33.js",
     "static/js/2.108b7665.chunk.js",
     "static/css/main.3bf65a5c.chunk.css",
-    "static/js/main.aabe6142.chunk.js"
+    "static/js/main.166137c9.chunk.js"
   ]
 }
