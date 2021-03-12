@@ -5,7 +5,7 @@ import Backvideo from './../../videos/video-1.mp4'
 const Hero = () => {
     return (
         <div className="hero-container">
-            <video >
+            <video autoPlay loop muted>
                 <source src={Backvideo} type="video/mp4"/>
             </video>
             <h1>adventure awaits</h1>
