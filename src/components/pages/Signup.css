@@ -1,0 +1,172 @@
+.sign-up{
+    padding: 2rem;
+}
+.sign-up-container{
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    padding: 2rem;
+}
+.sign-up-container h2{
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 60px;
+
+}
+
+.sign-up-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+}
+h3{
+    margin-bottom: 60px;
+    text-transform: capitalize;
+    color: #333;
+}
+.form-control{
+    position: relative;
+}
+.form-control input{
+    width: 90%;
+    height: 40px;
+    border: 0;
+    border-bottom: 3px solid #ccc;
+    outline: none;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    
+}
+.form-control input::placeholder{
+    color: #ccc;
+    text-transform: capitalize;
+}
+.form-control i{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #ccc;
+    transition: all 0.3s ease-in-out;
+}
+.form-control input:focus + i{
+    color: #242424;
+    transform: scale(1.2);
+}
+.form-control input:focus{
+    
+    border-bottom: 3px solid #333;
+}
+.sign-btn{
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #333;
+    color: #333;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+.sign-btn:hover{
+    background: #333;
+    border: 1px solid #fff;
+    color: white;
+}
+
+.facebook-signup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-items: center;
+    background: #3b5998;
+    width: 70%;
+    padding: 10px 15px;
+    border-radius:10px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 90px;
+}
+.facebook-signup h3{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.facebook-signup i {
+    color: white;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+.facebook-signup:hover i {
+    margin-left: 70px;
+}
+.col-left{
+    position: relative;
+}
+.col-left::after{
+    content: "";
+    position: absolute;
+    height: 45%;
+    width: 2px;
+    background: #ccc;
+    top:-10%;
+    left: 100%;
+}
+.col-left::before{
+    content: "";
+    position: absolute;
+    height: 45%;
+    width: 2px;
+    background: #ccc;
+    top:55%;
+    left: 100%;
+}
+.col-right{
+    position: relative;
+}
+.col-right::before{
+    content: "or";
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: -50px;
+    font-weight: bold;
+    color: #333;
+    text-transform: capitalize;
+}
+@media screen and (max-width:960px){
+    .sign-up-wrapper{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 40px;
+    
+    }
+    .col-right::before,.col-left::before,.col-left::after{
+        display: none;
+    }
+    .facebook-signup{
+        width: 50%;
+    }
+    .facebook-signup:hover i {
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:700px){
+    .facebook-signup{
+        width: 50%;
+    }
+    .sign-up-container{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:500px){
+    .facebook-signup{
+        width: 100%;
+    }
+   
+}
