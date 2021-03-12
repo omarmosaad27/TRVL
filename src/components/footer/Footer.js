@@ -63,7 +63,7 @@ const Footer = () => {
                     <div className="logo-wrap">
                         <Link to="/"  className="logo" >
                             TRVL
-                            <i class="fab fa-typo3"></i>
+                            <i className="fab fa-typo3"></i>
                         </Link>
                     </div>
                     <div className="copyrights">

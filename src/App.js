@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './components/navbar/Navbar'
 import {HashRouter as Router , Switch,Route} from 'react-router-dom'
 import Home from './components/pages/Home'
-import Products from './components/pages/Products'
 import Services from './components/pages/Services'
 import Signup from "./components/pages/Signup";
 function App() {

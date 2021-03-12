@@ -1,6 +1,11 @@
 import React from 'react'
 import CardItem from './../cards/CardItem'
 import './Cards.css'
+import Img9 from './../../images/img-9.jpg'
+import Img2 from './../../images/img-2.jpg'
+import Img3 from './../../images/img-3.jpg'
+import Img4 from './../../images/img-4.jpg'
+import Img8 from './../../images/img-8.jpg'
 const Cards = () => {
     return (
         <div className="cards">
@@ -9,13 +14,13 @@ const Cards = () => {
                 <div className="cards-wrapper">
                     <ul className="cards-items">
                         <CardItem
-                        src="images/img-9.jpg"
+                        src={Img9}
                         text="explore the hidden waterfall deep inside the amazon jungle"
                         label="adventure"
                         path="/services"
                         />
                         <CardItem
-                        src="images/img-2.jpg"
+                        src={Img2}
                         text="travel through the islands of Bali in a private cruise "
                         label="luxury"
                         path="/services"
@@ -23,19 +28,19 @@ const Cards = () => {
                     </ul>
                     <ul className="cards-items two">
                         <CardItem
-                        src="images/img-3.jpg"
+                        src={Img3}
                         text="set sail in the atlantic ocean visiting uncharted waters"
                         label="mystery"
                         path="/services"
                         />
                         <CardItem
-                        src="images/img-4.jpg"
+                        src={Img4}
                         text="experience football on top of himilayan mountains "
                         label="adventure"
                         path="/services"
                         />
                         <CardItem
-                        src="images/img-8.jpg"
+                        src={Img8}
                         text="ride through the sahara desert on a guided ride camel tour "
                         label="adrenaline"
                         path="/services"

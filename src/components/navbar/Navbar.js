@@ -28,10 +28,10 @@ const Navbar = () => {
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         TRVL
-                        <i class="fab fa-typo3"></i>
+                        <i className="fab fa-typo3"></i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
-                        <i class={click?"far fa-times-circle fa-lg":"fas fa-bars fa-lg"}></i>
+                        <i className={click?"far fa-times-circle fa-lg":"fas fa-bars fa-lg"}></i>
                     </div>
                     <ul className={click ? "nav-menu active":"nav-menu"}>
                         <li className="nav-items">
@@ -44,11 +44,6 @@ const Navbar = () => {
                         {button ? <Button buttonStyle="btn--outline" >Sign Up</Button> : <Button buttonStyle="btn--outline" buttonSize="btn--large" >Sign Up</Button>}
 
                     </ul>
-                    
-                        
-                    
-
-                    
                 </div>
             </nav>
         </>

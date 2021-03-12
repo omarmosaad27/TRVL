@@ -11,15 +11,15 @@ const Signup = () => {
                         <form>
                             <div className="form-control">
                                 <input type="text" placeholder="your name"/>
-                                <i class="far fa-user-circle fa-lg"></i>
+                                <i className="far fa-user-circle fa-lg"></i>
                             </div>
                             <div className="form-control">
                                 <input type="email" placeholder="your email"/>
-                                <i class="far fa-envelope-open fa-lg"></i>
+                                <i className="far fa-envelope-open fa-lg"></i>
                             </div>
                             <div className="form-control">
                                 <input type="password" placeholder="password"/>
-                                <i class="fas fa-lock fa-lg"></i>
+                                <i className="fas fa-lock fa-lg"></i>
                             </div>
                             <button className="sign-btn">sign up</button>
                         </form>
@@ -30,7 +30,7 @@ const Signup = () => {
                             <h3>
                                 Login on 
                             </h3>
-                            <i class="fab fa-facebook-square fa-2x"></i>
+                            <i className="fab fa-facebook-square fa-2x"></i>
                         </div>
                     </div>
                 </div>
